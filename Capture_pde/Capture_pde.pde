@@ -3,13 +3,15 @@ import processing.video.*;
 Capture cam;
 
 void setup() {
-  size(640, 480);
+  size(900, 800);
 
   String[] cameras = Capture.list();
   
   if (cameras.length == 0) {
-    println("There are no cameras available for capture.");
-    exit();
+    println("You will be using the base model.");
+    PImage img;
+    img = loadImage("thezman.png");
+    image(img, 0, 0);
   } else {
     println("Available cameras:");
     for (int i = 0; i < cameras.length; i++) {
