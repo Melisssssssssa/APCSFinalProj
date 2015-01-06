@@ -6,3 +6,5 @@ Melissa Ye<br>
 Period 1<br>
 <h2>ChangeLog</h2>
 -12/19 Created the repo <br>
+-1/5 Created a code that will open the webcam<br>
+-1/6 Updated the webcam code in Capture_pde <br> 
