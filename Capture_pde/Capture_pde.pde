@@ -32,8 +32,18 @@ void draw() {
   if (cam.available() == true) {
     cam.read();
   }
+  //The photo saves... except we need to find a way to call on the photo
+  //It saves as screen-somenumber.tif
   image(cam, 0, 0);
+  if (keyPressed == true){
+    if (key == 'a'){
+      PImage img = get(width,height,width,height);
+      saveFrame();
+    }
+  }
+}
+
   // The following does the same, and is faster when just drawing the image
   // without any additional resizing, transformations, or tint.
   //set(0, 0, cam);
-}
+
