@@ -8,4 +8,4 @@ Period 1<br>
 -12/19 Created the repo <br>
 -1/5 Created a code that will open the webcam<br>
 -1/6 Updated the webcam code in Capture_pde <br> 
--1/7 Created basic model image for those with no webcam Fanny <br>
+-1/6 Created basic model image for those with no webcam Fanny <br>
