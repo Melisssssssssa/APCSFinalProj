@@ -25,6 +25,9 @@ void setup() {
   }      
 }
 
+
+//EVERYTHING UNDERNEATH THIS SENTENCE MAKES THE CODE NOT WORK :( IF YOU WERE TO make all the code beneath this go away the
+//thing works....but we need this code underneath right so AHh
 void draw() {
   if (cam.available() == true) {
     cam.read();
