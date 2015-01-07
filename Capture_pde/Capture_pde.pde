@@ -27,7 +27,7 @@ void setup() {
 
 
 //EVERYTHING UNDERNEATH THIS SENTENCE MAKES THE CODE NOT WORK :( IF YOU WERE TO make all the code beneath this go away the
-//thing works....but we need this code underneath right so AHh
+//thing works as in i can open a picture of zamansky....but we need this code underneath right to webcam a picture AHh
 void draw() {
   if (cam.available() == true) {
     cam.read();
