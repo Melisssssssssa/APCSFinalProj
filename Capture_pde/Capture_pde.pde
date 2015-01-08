@@ -38,7 +38,13 @@ void draw() {
   if (keyPressed == true){
     if (key == 'a'){
       PImage img = get(width,height,width,height);
-      saveFrame();
+      int i = 1;
+      if (i> 0){
+        i++;
+        //When saving the number is a random number
+        //attempting to make it save with a number that is consecutive
+        saveFrame("line-"+ i".tif");
+      }
     }
   }
 }
