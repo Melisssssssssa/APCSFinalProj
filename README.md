@@ -11,3 +11,5 @@ Period 1<br>
 -1/6 Updated the webcam code in Capture_pde <br> 
 -1/6 Created basic model image for those with no webcam Fanny <br>
 -1/7 Melissa added in the code that will save the image if you push a key<br>
+-1/8 Fixed code so that if there is no webcam, an image will open up<br>
+-1/8 Melissa started to work on drawing on the picture after the file saves<br> 
