@@ -37,7 +37,6 @@ void draw() {
         PImage img = get(width,height,width,height); 
         int x = 1;
         if( x > 0){
-              
         saveFrame("Picture-"+x+".png");
         x++;
         }
@@ -46,6 +45,12 @@ void draw() {
   }
 }
 
+//Allows for us to draw whenever our moude is clicked and drawn
+void mouseDragged(){
+  
+  
+}
+   
 
 
   
