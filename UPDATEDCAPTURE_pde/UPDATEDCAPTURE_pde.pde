@@ -31,19 +31,34 @@ void draw() {
     }
     if (ycam == true) {
       cam.read();
-        image(cam, 0, 0);
+      image(cam, 0, 0);
+      fill(0,102, 153);
+      text("SMILE!", 10, 60);
+      
+    //Takes the picture
+    if (mousePressed == true){
+      PImage img = get(width,height, width, height);
+      saveFrame("Picture.png");
+      
+    }
+    //Opens the picture just taken(right now it opens mr.z's face)]
     if (keyPressed == true){
-      if (key == 'a'){    
-        PImage img = get(width,height,width,height); 
-        int x = 1;
-        if( x > 0){
-        saveFrame("Picture-"+x+".png");
-        x++;
-        }
-    }
-    }
+      if(key == 'a'){
+        PImage img;
+        img = loadImage("thezman.png");
+        image(img,0,0);
+      }
+      
   }
 }
+}
+
+// To select a picture
+/*void mousePressed(){
+  println("Opening Picture.png");
+  
+}
+
 
 //Allows for us to draw whenever our moude is clicked and drawn
 void mouseDragged(){
@@ -51,7 +66,7 @@ void mouseDragged(){
   
 }
    
-
+*/
 
   
 
