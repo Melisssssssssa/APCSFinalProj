@@ -93,6 +93,7 @@ void draw() {
     }
   //Buttoncolor drawing
     if (readytobut==true){
+      text("Filters",25,547);
      if (rectOver) {
        fill(rectHighlight);
      } else {
@@ -116,7 +117,10 @@ void draw() {
      }
      stroke(255);
      rect(x3,y3,w3,h3);
-     }
+     fill(0);
+     text("Invert",25,570);
+   }
+    
    }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -148,7 +152,8 @@ else { rectOver3= false;
 //What happens when button is clicked
 void mousePressed(){
   if (rectOver){
-    text("omg",0,600);
+    filter(INVERT);
+    text("struddlee",20,600);
   }
   
     if (rectOver2){
