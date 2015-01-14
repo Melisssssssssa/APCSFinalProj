@@ -97,7 +97,7 @@ void draw() {
       
     //Takes the partial picture
     if (keyPressed == true){
-      PImage partialSave=get(0,0,500,470);
+      PImage partialSave=get(0,0,500,710);
       partialSave.save("Picture.png");
       
     }
