@@ -13,5 +13,5 @@ Period 1<br>
 -1/7 Melissa added in the code that will save the image if you push a key<br>
 -1/8 Fanny Fixed code so that if there is no webcam, an image will open up<br>
 -1/8 Melissa started to work on drawing on the picture after the file saves<br> 
--1/13 Fanny Fixed issue of drawing photo after taking it. I also made some adjustments on the size of the program
-      and some slight asthetic details. Also added three working buttons to the bottom of the page.
+-1/13 Fanny Fixed issue of drawing photo after taking it. Also added three working buttons to the bottom of the page.<br>
+-1/14 Fanny Added Mascara and Blush and filters
