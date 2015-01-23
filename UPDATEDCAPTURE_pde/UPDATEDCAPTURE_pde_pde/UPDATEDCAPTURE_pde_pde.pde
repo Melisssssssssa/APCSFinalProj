@@ -129,20 +129,21 @@ void draw() {
       
      }
     }
+    //Allows you to chose what hat you want
     if (magic == true){
       float r = random(0,4);
       
       if (r == 0){
-        image(poop, 205, 100, width/3, height/3);
+        image(poop, 205, 50, width/4, height/4);
       }
       if (r >= 1){
-        image(tophat, 205 ,100, width/3, height/3);
+        image(tophat, 205 ,50, width/4, height/4);
       }
       if (r >= 2){
-        image(crown, 205 ,100, width/3, height/3);
+        image(crown, 205 ,50, width/4, height/4);
       }
       if (r >= 3){
-         image(bow, 205 ,100, width/3, height/3);
+         image(bow, 205 ,50, width/4, height/4);
       }
     }
 
@@ -336,10 +337,10 @@ void mousePressed(){
       }
   
     if (rectOver3){
-      magic = true;
-      
-    
-  }
+      magic = true; 
+    }else magic = false; 
+  
+  
   
       if (rectOver4){
     filter(POSTERIZE, 4);
