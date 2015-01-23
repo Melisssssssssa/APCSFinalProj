@@ -32,10 +32,10 @@ void setup() {
   background(255,255,159);
   size(500, 710);
   
-  poop = loadImage("poop.jpg");
+  poop = loadImage("poop face.png");
   crown = loadImage("crown.png");
-  tophat = loadImage("hat.jpg");
-  bow = loadImage("bow.jpg");
+  tophat = loadImage("blacktophat.png");
+  bow = loadImage("hairbow.png");
   
 
 
