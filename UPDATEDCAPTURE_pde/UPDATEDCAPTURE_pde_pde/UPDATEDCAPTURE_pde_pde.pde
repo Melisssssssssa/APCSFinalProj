@@ -120,7 +120,7 @@ void draw() {
         ycam = false;
         PImage img;
         img = loadImage("Picture.png");
-        image(img,0,0);
+        background(img);
         textSize(15);
         fill(0,102, 153);
         text("Looking like a hot pixelated beast. Edit yourself as you please.", 20, 530);
@@ -135,13 +135,13 @@ void draw() {
       if (r == 0){
         image(poop, 205, 100, width/3, height/3);
       }
-      if (r == 1){
+      if (r >= 1){
         image(tophat, 205 ,100, width/3, height/3);
       }
-      if (r == 2){
+      if (r >= 2){
         image(crown, 205 ,100, width/3, height/3);
       }
-      if (r == 3){
+      if (r >= 3){
          image(bow, 205 ,100, width/3, height/3);
       }
     }
